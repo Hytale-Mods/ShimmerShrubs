@@ -1,0 +1,559 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Block",
+      "position": {"x": -11.99398, "y": 22.95419, "z": -15.96843},
+      "orientation": {"x": -0.32569, "y": 0.19018, "z": -0.01828, "w": 0.92597},
+      "shape": {
+        "type": "quad",
+        "offset": {"x": 0, "y": 0, "z": 0},
+        "stretch": {"x": 1.29071, "y": 0.93333, "z": 0.1},
+        "settings": {
+          "isPiece": false,
+          "size": {"x": 32, "y": 56},
+          "normal": "+Z"
+        },
+        "textureLayout": {
+          "front": {
+            "offset": {"x": 0, "y": 0},
+            "mirror": {"x": false, "y": false},
+            "angle": 0
+          }
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": true,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "2",
+          "name": "Block",
+          "position": {"x": 18.45379, "y": -20.40134, "z": 20.82072},
+          "orientation": {"x": 0.00397, "y": -0.67935, "z": -0.55711, "w": 0.47759},
+          "shape": {
+            "type": "quad",
+            "offset": {"x": 0, "y": 0, "z": 0},
+            "stretch": {"x": 0.87196, "y": 1, "z": 0.1},
+            "settings": {
+              "isPiece": false,
+              "size": {"x": 57, "y": 56},
+              "normal": "+Z"
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {"x": 0, "y": 0},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": true,
+            "shadingMode": "flat"
+          }
+        },
+        {
+          "id": "3",
+          "name": "Block",
+          "position": {"x": 8.43896, "y": -9.61243, "z": 23.11447},
+          "orientation": {"x": 0.0965, "y": -0.89873, "z": -0.34969, "w": 0.24636},
+          "shape": {
+            "type": "quad",
+            "offset": {"x": 0, "y": 0, "z": 0},
+            "stretch": {"x": 0.93197, "y": 0.9576, "z": 0.1},
+            "settings": {
+              "isPiece": false,
+              "size": {"x": 57, "y": 56},
+              "normal": "+Z"
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {"x": 57, "y": 0},
+                "mirror": {"x": true, "y": false},
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": true,
+            "shadingMode": "flat"
+          }
+        },
+        {
+          "id": "4",
+          "name": "Block",
+          "position": {"x": 6.58223, "y": -10.64926, "z": 20.96903},
+          "orientation": {"x": 0.0391, "y": 0.78878, "z": 0.40184, "w": 0.46348},
+          "shape": {
+            "type": "quad",
+            "offset": {"x": 0, "y": 0, "z": 0},
+            "stretch": {"x": -1, "y": 1.04756, "z": 0.1},
+            "settings": {
+              "isPiece": false,
+              "size": {"x": 57, "y": 56},
+              "normal": "+Z"
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {"x": 0, "y": 0},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": true,
+            "shadingMode": "flat"
+          }
+        },
+        {
+          "id": "5",
+          "name": "Block",
+          "position": {"x": -10.20992, "y": -21.65247, "z": 19.58622},
+          "orientation": {"x": -0.12158, "y": 0.6832, "z": 0.57243, "w": 0.43678},
+          "shape": {
+            "type": "quad",
+            "offset": {"x": 0, "y": 0, "z": 0},
+            "stretch": {"x": 0.98981, "y": 1, "z": 0.1},
+            "settings": {
+              "isPiece": false,
+              "size": {"x": 57, "y": 56},
+              "normal": "+Z"
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {"x": 0, "y": 0},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": true,
+            "shadingMode": "flat"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Berry",
+      "position": {"x": -19.63622, "y": 36.75799, "z": -2.12025},
+      "orientation": {"x": 0.46194, "y": 0.19134, "z": 0.19134, "w": 0.84462},
+      "shape": {
+        "type": "box",
+        "offset": {"x": 0, "y": 0, "z": 0},
+        "stretch": {"x": 0.8, "y": 0.8, "z": 0.8},
+        "settings": {
+          "isPiece": false,
+          "size": {"x": 8, "y": 8, "z": 8}
+        },
+        "textureLayout": {
+          "back": {
+            "offset": {"x": 64, "y": 56},
+            "mirror": {"x": false, "y": true},
+            "angle": 180
+          },
+          "right": {
+            "offset": {"x": 56, "y": 64},
+            "mirror": {"x": false, "y": false},
+            "angle": 180
+          },
+          "front": {
+            "offset": {"x": 48, "y": 64},
+            "mirror": {"x": true, "y": true},
+            "angle": 90
+          },
+          "left": {
+            "offset": {"x": 40, "y": 64},
+            "mirror": {"x": true, "y": true},
+            "angle": 90
+          },
+          "top": {
+            "offset": {"x": 56, "y": 56},
+            "mirror": {"x": true, "y": false},
+            "angle": 270
+          },
+          "bottom": {
+            "offset": {"x": 56, "y": 64},
+            "mirror": {"x": true, "y": true},
+            "angle": 90
+          }
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "reflective"
+      },
+      "children": [
+        {
+          "id": "7",
+          "name": "Berry",
+          "position": {"x": -4.33552, "y": -4.33552, "z": 6.13136},
+          "orientation": {"x": -0.46404, "y": 0.38417, "z": -0.28062, "w": 0.74721},
+          "shape": {
+            "type": "box",
+            "offset": {"x": 0, "y": 0, "z": 0},
+            "stretch": {"x": 0.75, "y": 0.75, "z": 0.75},
+            "settings": {
+              "isPiece": false,
+              "size": {"x": 8, "y": 8, "z": 8}
+            },
+            "textureLayout": {
+              "back": {
+                "offset": {"x": 64, "y": 56},
+                "mirror": {"x": false, "y": true},
+                "angle": 180
+              },
+              "right": {
+                "offset": {"x": 56, "y": 64},
+                "mirror": {"x": false, "y": false},
+                "angle": 180
+              },
+              "front": {
+                "offset": {"x": 48, "y": 64},
+                "mirror": {"x": true, "y": true},
+                "angle": 90
+              },
+              "left": {
+                "offset": {"x": 40, "y": 64},
+                "mirror": {"x": true, "y": true},
+                "angle": 90
+              },
+              "top": {
+                "offset": {"x": 56, "y": 56},
+                "mirror": {"x": true, "y": false},
+                "angle": 270
+              },
+              "bottom": {
+                "offset": {"x": 56, "y": 64},
+                "mirror": {"x": true, "y": true},
+                "angle": 90
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "reflective"
+          },
+          "children": [
+            {
+              "id": "8",
+              "name": "Berry",
+              "position": {"x": 8.19737, "y": -2.50691, "z": 2.86625},
+              "orientation": {"x": -0.39572, "y": 0.35673, "z": 0.60353, "w": 0.59321},
+              "shape": {
+                "type": "box",
+                "offset": {"x": 0, "y": 0, "z": 0},
+                "stretch": {"x": 0.75, "y": 0.75, "z": 0.75},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 8, "y": 8, "z": 8}
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 64, "y": 56},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 180
+                  },
+                  "right": {
+                    "offset": {"x": 56, "y": 64},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 180
+                  },
+                  "front": {
+                    "offset": {"x": 48, "y": 64},
+                    "mirror": {"x": true, "y": true},
+                    "angle": 90
+                  },
+                  "left": {
+                    "offset": {"x": 40, "y": 64},
+                    "mirror": {"x": true, "y": true},
+                    "angle": 90
+                  },
+                  "top": {
+                    "offset": {"x": 56, "y": 56},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 56, "y": 64},
+                    "mirror": {"x": true, "y": true},
+                    "angle": 90
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            },
+            {
+              "id": "9",
+              "name": "Berry",
+              "position": {"x": 25.66349, "y": -10.76269, "z": 25.72325},
+              "orientation": {"x": -0.39572, "y": 0.35673, "z": 0.60353, "w": 0.59321},
+              "shape": {
+                "type": "box",
+                "offset": {"x": 0, "y": 0, "z": 0},
+                "stretch": {"x": 0.75, "y": 0.75, "z": 0.75},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 8, "y": 8, "z": 8}
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 64, "y": 56},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 180
+                  },
+                  "right": {
+                    "offset": {"x": 56, "y": 64},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 180
+                  },
+                  "front": {
+                    "offset": {"x": 48, "y": 64},
+                    "mirror": {"x": true, "y": true},
+                    "angle": 90
+                  },
+                  "left": {
+                    "offset": {"x": 40, "y": 64},
+                    "mirror": {"x": true, "y": true},
+                    "angle": 90
+                  },
+                  "top": {
+                    "offset": {"x": 56, "y": 56},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 56, "y": 64},
+                    "mirror": {"x": true, "y": true},
+                    "angle": 90
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Berry",
+      "position": {"x": 23.78623, "y": 22.04201, "z": -2.12025},
+      "orientation": {"x": 0.46194, "y": 0.19134, "z": 0.19134, "w": 0.84462},
+      "shape": {
+        "type": "box",
+        "offset": {"x": 0, "y": 0, "z": 0},
+        "stretch": {"x": 0.8, "y": 0.8, "z": 0.8},
+        "settings": {
+          "isPiece": false,
+          "size": {"x": 8, "y": 8, "z": 8}
+        },
+        "textureLayout": {
+          "back": {
+            "offset": {"x": 64, "y": 56},
+            "mirror": {"x": false, "y": true},
+            "angle": 180
+          },
+          "right": {
+            "offset": {"x": 56, "y": 64},
+            "mirror": {"x": false, "y": false},
+            "angle": 180
+          },
+          "front": {
+            "offset": {"x": 48, "y": 64},
+            "mirror": {"x": true, "y": true},
+            "angle": 90
+          },
+          "left": {
+            "offset": {"x": 40, "y": 64},
+            "mirror": {"x": true, "y": true},
+            "angle": 90
+          },
+          "top": {
+            "offset": {"x": 56, "y": 56},
+            "mirror": {"x": true, "y": false},
+            "angle": 270
+          },
+          "bottom": {
+            "offset": {"x": 56, "y": 64},
+            "mirror": {"x": true, "y": true},
+            "angle": 90
+          }
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "reflective"
+      }
+    },
+    {
+      "id": "11",
+      "name": "Berry",
+      "position": {"x": 12.65537, "y": 35.57758, "z": 19.22801},
+      "orientation": {"x": 0.29567, "y": -0.33237, "z": 0.19629, "w": 0.87383},
+      "shape": {
+        "type": "box",
+        "offset": {"x": 0, "y": 0, "z": 0},
+        "stretch": {"x": 0.8, "y": 0.8, "z": 0.8},
+        "settings": {
+          "isPiece": false,
+          "size": {"x": 8, "y": 8, "z": 8}
+        },
+        "textureLayout": {
+          "back": {
+            "offset": {"x": 64, "y": 56},
+            "mirror": {"x": false, "y": true},
+            "angle": 180
+          },
+          "right": {
+            "offset": {"x": 56, "y": 64},
+            "mirror": {"x": false, "y": false},
+            "angle": 180
+          },
+          "front": {
+            "offset": {"x": 48, "y": 64},
+            "mirror": {"x": true, "y": true},
+            "angle": 90
+          },
+          "left": {
+            "offset": {"x": 40, "y": 64},
+            "mirror": {"x": true, "y": true},
+            "angle": 90
+          },
+          "top": {
+            "offset": {"x": 56, "y": 56},
+            "mirror": {"x": true, "y": false},
+            "angle": 270
+          },
+          "bottom": {
+            "offset": {"x": 56, "y": 64},
+            "mirror": {"x": true, "y": true},
+            "angle": 90
+          }
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "reflective"
+      },
+      "children": [
+        {
+          "id": "12",
+          "name": "Berry",
+          "position": {"x": -5.46806, "y": -10.1189, "z": 11.13478},
+          "orientation": {"x": -0.46404, "y": 0.38417, "z": -0.28062, "w": 0.74721},
+          "shape": {
+            "type": "box",
+            "offset": {"x": 0, "y": 0, "z": 0},
+            "stretch": {"x": 0.75, "y": 0.75, "z": 0.75},
+            "settings": {
+              "isPiece": false,
+              "size": {"x": 8, "y": 8, "z": 8}
+            },
+            "textureLayout": {
+              "back": {
+                "offset": {"x": 64, "y": 56},
+                "mirror": {"x": false, "y": true},
+                "angle": 180
+              },
+              "right": {
+                "offset": {"x": 56, "y": 64},
+                "mirror": {"x": false, "y": false},
+                "angle": 180
+              },
+              "front": {
+                "offset": {"x": 48, "y": 64},
+                "mirror": {"x": true, "y": true},
+                "angle": 90
+              },
+              "left": {
+                "offset": {"x": 40, "y": 64},
+                "mirror": {"x": true, "y": true},
+                "angle": 90
+              },
+              "top": {
+                "offset": {"x": 56, "y": 56},
+                "mirror": {"x": true, "y": false},
+                "angle": 270
+              },
+              "bottom": {
+                "offset": {"x": 56, "y": 64},
+                "mirror": {"x": true, "y": true},
+                "angle": 90
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "reflective"
+          },
+          "children": [
+            {
+              "id": "13",
+              "name": "Berry",
+              "position": {"x": 8.19737, "y": -2.50691, "z": 2.86625},
+              "orientation": {"x": -0.39572, "y": 0.35673, "z": 0.60353, "w": 0.59321},
+              "shape": {
+                "type": "box",
+                "offset": {"x": 0, "y": 0, "z": 0},
+                "stretch": {"x": 0.75, "y": 0.75, "z": 0.75},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 8, "y": 8, "z": 8}
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 64, "y": 56},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 180
+                  },
+                  "right": {
+                    "offset": {"x": 56, "y": 64},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 180
+                  },
+                  "front": {
+                    "offset": {"x": 48, "y": 64},
+                    "mirror": {"x": true, "y": true},
+                    "angle": 90
+                  },
+                  "left": {
+                    "offset": {"x": 40, "y": 64},
+                    "mirror": {"x": true, "y": true},
+                    "angle": 90
+                  },
+                  "top": {
+                    "offset": {"x": 56, "y": 56},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 56, "y": 64},
+                    "mirror": {"x": true, "y": true},
+                    "angle": 90
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "format": "prop",
+  "lod": "auto"
+}

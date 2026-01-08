@@ -1,0 +1,164 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Darkhax_ShimmerShrubs_Bush_Mithril.name",
+    "Description": "server.items.Darkhax_ShimmerShrubs_Bush_Mithril.description"
+  },
+  "Parent": "Template_Crop_Berry_Block",
+  "BlockType": {
+    "CustomModel": "Blocks/Foliage/Plants/Bush_Wild.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Foliage/Plants/Bush_Berry_Wild.png",
+        "Weight": 1
+      }
+    ],
+    "State": {
+      "Definitions": {
+        "StageFinal": {
+          "CustomModel": "Blocks/Bushes/Darkhax_ShimmerShrubs_BerryBush.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Bushes/Darkhax_ShimmerShrubs_Mithril.png",
+              "Weight": 1
+            }
+          ],
+          "InteractionHint": "server.interactionHints.harvest",
+          "Interactions": {
+            "Use": {
+              "Interactions": [
+                {
+                  "Type": "HarvestCrop"
+                }
+              ]
+            }
+          },
+          "Support": {
+            "Down": [
+              {
+                "FaceType": "Full"
+              },
+              {
+                "FaceType": "Bushes"
+              }
+            ]
+          },
+          "Supporting": {
+            "Up": [
+              {
+                "FaceType": "Bushes"
+              }
+            ]
+          },
+          "Gathering": {
+            "Soft": {
+              "DropList": "Drops_Darkhax_ShimmerShrubs_Mithril"
+            },
+            "Harvest": {
+              "DropList": "Drops_Darkhax_ShimmerShrubs_Mithril_Harvest"
+            }
+          }
+        }
+      }
+    },
+    "Farming": {
+      "Stages": {
+        "Default": [
+          {
+            "Type": "BlockState",
+            "Duration": {
+              "Min": 80000,
+              "Max": 80000
+            },
+            "State": "default",
+            "SoundEventId": "SFX_Crops_Grow"
+          },
+          {
+            "Type": "BlockState",
+            "State": "StageFinal",
+            "SoundEventId": "SFX_Crops_Grow_Stage_Complete"
+          }
+        ],
+        "Harvested": [
+          {
+            "Type": "BlockState",
+            "Duration": {
+              "Min": 20000,
+              "Max": 20000
+            },
+            "State": "default",
+            "SoundEventId": "SFX_Crops_Grow"
+          },
+          {
+            "Type": "BlockState",
+            "State": "StageFinal",
+            "SoundEventId": "SFX_Crops_Grow_Stage_Complete"
+          }
+        ]
+      },
+      "StartingStageSet": "Default",
+      "StageSetAfterHarvest": "Harvested"
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        },
+        {
+          "FaceType": "Bushes"
+        }
+      ]
+    },
+    "Supporting": {
+      "Up": [
+        {
+          "FaceType": "Bushes"
+        }
+      ]
+    },
+    "Gathering": {
+      "Soft": {
+        "DropList": "Drops_Darkhax_ShimmerShrubs_Mithril"
+      }
+    },
+    "BlockParticleSetId": "Leaves",
+    "BlockSoundSetId": "Bush"
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Plant_Crop_Berry_Block",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Ingredient_Bar_Mithril",
+        "Quantity": 10
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Farmingbench",
+        "Categories": [
+          "Saplings"
+        ]
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Darkhax_ShimmerShrubs_Bush_Mithril.png",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

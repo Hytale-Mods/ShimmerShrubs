@@ -1,0 +1,20 @@
+{
+  "Input": [
+    {
+      "ItemId": "Darkhax_ShimmerShrubs_Berry_Copper",
+      "Quantity": 5
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "Furnace"
+    }
+  ],
+  "OutputQuantity": 1,
+  "TimeSeconds": 18,
+  "PrimaryOutput": {
+    "ItemId": "Ingredient_Bar_Copper",
+    "Quantity": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "Group": "Darkhax",
+    "Name": "ShimmerShrubs",
+    "Version": "2026.1.8-53123",
+    "Description": "Farm resources using magic berry bushes!",
+    "Authors": [
+        {
+            "Name": "Darkhax"
+        }
+    ],
+    "Website": "https://www.curseforge.com/hytale/mods/shimmer-shrubs",
+    "ServerVersion": "*",
+    "Dependencies": {
+        
+    },
+    "OptionalDependencies": {
+        
+    },
+    "DisabledByDefault": false,
+    "IncludesAssetPack": true
+}

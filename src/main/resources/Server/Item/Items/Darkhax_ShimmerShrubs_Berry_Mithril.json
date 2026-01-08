@@ -1,0 +1,34 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Darkhax_ShimmerShrubs_Berry_Mithril.name",
+    "Description": "server.items.Darkhax_ShimmerShrubs_Berry_Mithril.description"
+  },
+  "Parent": "Template_Fruit",
+  "BlockType": {
+    "CustomModel": "Resources/Berries/Darkhax_ShimmerShrubs_Berry.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Berries/Darkhax_ShimmerShrubs_Berry_Mithril.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#ad6b47",
+    "HitboxType": "Plant_Small",
+    "CustomModelScale": 0.75
+  },
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      9,
+      96,
+      40
+    ],
+    "Translation": [
+      1,
+      -3
+    ]
+  },
+  "Scale": 1,
+  "DropOnDeath": true,
+  "Icon": "Icons/ItemsGenerated/Darkhax_ShimmerShrubs_Berry_Mithril.png"
+}
