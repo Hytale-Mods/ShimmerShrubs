@@ -126,8 +126,8 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Plant_Crop_Berry_Block",
-        "Quantity": 1
+        "ItemId": "Plant_Fruit_Berries_Red",
+        "Quantity": 25
       },
       {
         "ItemId": "Ingredient_Life_Essence",
@@ -142,6 +142,7 @@
       {
         "Type": "Crafting",
         "Id": "Farmingbench",
+        "RequiredTierLevel": 4,
         "Categories": [
           "Saplings"
         ]
