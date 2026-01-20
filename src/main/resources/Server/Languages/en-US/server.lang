@@ -23,6 +23,11 @@ items.Darkhax_ShimmerShrubs_Bush_Gold.description=A bush that produces berries w
 items.Darkhax_ShimmerShrubs_Berry_Gold.name=Gold Berry
 items.Darkhax_ShimmerShrubs_Berry_Gold.description=A berry that contains large amounts of gold.
 
+items.Darkhax_ShimmerShrubs_Bush_Silver.name=Silver Berry Bush
+items.Darkhax_ShimmerShrubs_Bush_Silver.description=A bush that produces berries with high silver contents.
+items.Darkhax_ShimmerShrubs_Berry_Silver.name=Silver Berry
+items.Darkhax_ShimmerShrubs_Berry_Silver.description=A berry that contains large amounts of silver.
+
 items.Darkhax_ShimmerShrubs_Bush_Iron.name=Iron Berry Bush
 items.Darkhax_ShimmerShrubs_Bush_Iron.description=A bush that produces berries with high iron contents.
 items.Darkhax_ShimmerShrubs_Berry_Iron.name=Iron Berry
