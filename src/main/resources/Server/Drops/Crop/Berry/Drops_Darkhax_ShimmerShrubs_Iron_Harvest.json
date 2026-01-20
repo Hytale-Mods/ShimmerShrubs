@@ -6,7 +6,9 @@
         "Type": "Single",
         "Weight": 100,
         "Item": {
-          "ItemId": "Darkhax_ShimmerShrubs_Berry_Iron"
+          "ItemId": "Darkhax_ShimmerShrubs_Berry_Iron",
+          "QuantityMin": 1,
+          "QuantityMax": 2
         }
       }
     ]
